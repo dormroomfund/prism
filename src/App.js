@@ -72,8 +72,8 @@ const success = [
 const curriculum = [
   "Intro to Venture Capital: Who? What? When? Where? How?",
   "Venture Finance 101: Cap Tables and Term Sheets",
-  "Frameworks: Business Models and Due Diligence",
-  "Sourcing and Support",
+  "Evaluating Deals and Due Dilligence",
+  "Sourcing and Supporting Founders",
   "Specific Topics in the LGBTQ+ space (media, consumer, healthcare)",
   "VC Case Study: Asking the Right Questions",
 ];
@@ -85,7 +85,6 @@ function App() {
 
   const dateYear = date.getFullYear();
   const windowHeight = window.innerHeight;
-  console.log(windowHeight);
 
   useEffect(() => {
     AOS.init({
