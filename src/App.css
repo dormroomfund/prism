@@ -1,6 +1,6 @@
 .container {
   margin: 2.5% 12%;
-  font-family: "Circular Std Book", sans-serif;
+  font-family: 'Circular Std Book', sans-serif;
 }
 
 .flex {
@@ -39,14 +39,14 @@
   font-weight: bolder;
   /* text-decoration: underline; */
   margin-bottom: 2%;
-  font-family: "Josefin Sans";
+  font-family: 'Josefin Sans';
 }
 
 .faq-container {
   background-color: black;
   color: white;
   padding: 6% 12%;
-  font-family: "Circular Std Book", sans-serif;
+  font-family: 'Circular Std Book', sans-serif;
 }
 
 .question {
@@ -84,7 +84,7 @@
 }
 
 .call-line {
-  font-family: "Indie Flower", cursive;
+  font-family: 'Indie Flower', cursive;
   background-color: #b7d8ff;
   text-align: center;
   height: 96px;
@@ -99,6 +99,11 @@
 
 .success-text {
   font-style: italic;
+}
+
+.people {
+  display: flex;
+  justify-content: space-around;
 }
 
 .link {
@@ -147,6 +152,9 @@
 }
 
 @media only screen and (max-width: 952px) {
+  .subtitle {
+    margin-bottom: 4%;
+  }
   .title {
     font-size: 36px;
     margin-bottom: 4%;
@@ -185,10 +193,42 @@
     margin-bottom: 2vh;
     margin-top: 4vh;
   }
+  .people {
+    flex-direction: column;
+  }
+
+  .headshot {
+    margin-bottom: 2% !important;
+  }
+
+  .person-descriptor {
+    margin-bottom: 15%;
+  }
 }
 
 @media only screen and (max-width: 500px) {
   .illustration {
     width: 256px !important;
   }
+}
+
+.headshot {
+  border-radius: 50%;
+  margin-bottom: 10%;
+  box-shadow: 10px 10px black;
+}
+
+.person-descriptor {
+  text-align: center;
+  font-size: 20px;
+}
+
+/* CSS for People */
+.name {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.pronouns {
+  font-style: italic;
 }
