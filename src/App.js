@@ -95,7 +95,7 @@ const team = [
     name: 'Irene Wu',
     pronouns: 'she/her',
     college: "Harvard University '22",
-    dog: 'Australian Shepherd',
+    dog: 'Bernedoodle',
     photo: (
       <img
         src={Irene}
