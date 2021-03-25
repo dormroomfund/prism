@@ -7,6 +7,7 @@ import { useEffect } from 'react';
 
 import Ivan from './images/ivan.png';
 import Irene from './images/irene.jpeg';
+import Mariel from './images/mariel.jpeg';
 
 import './App.css';
 import 'aos/dist/aos.css';
@@ -100,6 +101,20 @@ const team = [
       <img
         src={Irene}
         alt='headshot of Irene'
+        width={250}
+        className='headshot'
+      />
+    ),
+  },
+  {
+    name: 'Mariel Rosic',
+    pronouns: 'she/her',
+    college: "Brown University '20.5",
+    dog: 'Octopus',
+    photo: (
+      <img
+        src={Mariel}
+        alt='headshot of Mariel'
         width={250}
         className='headshot'
       />

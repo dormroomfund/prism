@@ -104,6 +104,7 @@
 .people {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .link {
@@ -221,6 +222,7 @@
 .person-descriptor {
   text-align: center;
   font-size: 20px;
+  margin-bottom: 4%;
 }
 
 /* CSS for People */
