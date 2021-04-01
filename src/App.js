@@ -8,6 +8,7 @@ import { useEffect } from 'react';
 import Ivan from './images/ivan.png';
 import Irene from './images/irene.jpeg';
 import Mariel from './images/mariel.jpeg';
+import Tayo from './images/tayo.jpeg';
 
 import './App.css';
 import 'aos/dist/aos.css';
@@ -79,7 +80,7 @@ const curriculum = [
   'Evaluating Deals and Due Dilligence',
   'Sourcing and Supporting Founders',
   'Specific Topics in the LGBTQ+ space (media, consumer, healthcare)',
-  'VC Case Study: Asking the Right Questions',
+  'Taking Meetings and Final Presentations',
 ];
 
 const team = [
@@ -89,7 +90,7 @@ const team = [
     college: "Brown University '22",
     dog: 'Corgi',
     photo: (
-      <img src={Ivan} alt='headshot of Ivan' width={250} className='headshot' />
+      <img src={Ivan} alt='headshot of Ivan' width={200} className='headshot' />
     ),
   },
   {
@@ -101,7 +102,7 @@ const team = [
       <img
         src={Irene}
         alt='headshot of Irene'
-        width={250}
+        width={200}
         className='headshot'
       />
     ),
@@ -115,9 +116,18 @@ const team = [
       <img
         src={Mariel}
         alt='headshot of Mariel'
-        width={250}
+        width={200}
         className='headshot'
       />
+    ),
+  },
+  {
+    name: 'Tayo Zenger',
+    pronouns: 'he/him',
+    college: "Babson College '21",
+    dog: 'Vizsla',
+    photo: (
+      <img src={Tayo} alt='headshot of Tayo' width={200} className='headshot' />
     ),
   },
 ];
@@ -174,6 +184,9 @@ function App() {
           🏳️‍🌈 Together, we can turn the VC industry into a brilliant spectrum of
           individuals
         </div>
+        <div className='logos' data-aos='fade-up'>
+          <img src={drf} width={500} alt='DRF Logo' />
+        </div>
         <div className='paragraph' data-aos='fade-up'>
           Dorm Room Fund’s <strong>Prism Investor Track</strong> is a 6-week
           series of masterclasses aimed at supporting the next generation of
@@ -204,6 +217,14 @@ function App() {
             })}
           </ul>
         </div>
+        {/* <div className='paragraph' data-aos='fade-up'>
+          <div className='subtitle'>Partnerships</div>
+          <div>
+            We wouldn't have been able to accomplish this without the amazing
+            support from the following organizations:
+          </div>
+          
+        </div> */}
         <div className='paragraph' data-aos='fade-up'>
           <div className='subtitle'>Organizing Team</div>
           <div className='people'>
@@ -222,15 +243,7 @@ function App() {
             })}
           </div>
         </div>
-        {/* <div className="paragraph" data-aos="fade-up">
-          <div className="subtitle">Partnerships</div>
-          <div>
-            We wouldn't have been able to accomplish this without the amazing
-            support from the following organizations:
-          </div>
-          <div></div>
-          <img src={drf} width={500} />
-        </div> */}
+
         <div className='paragraph' data-aos='fade-up'>
           Applications for the Prism Investor Track are now open and will close
           on May 2nd at 11:59 PST. Click{' '}
