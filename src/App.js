@@ -188,11 +188,11 @@ function App() {
           <img src={drf} width={500} alt='DRF Logo' />
         </div>
         <div className='paragraph' data-aos='fade-up'>
-          Dorm Room Fund’s <strong>Prism Investor Track</strong> is a 6-week
-          series of masterclasses aimed at supporting the next generation of
-          diverse venture investors! We’re bringing together talented LGBTQ+
-          students with an entrepreneurial mindset who want to find a community
-          and learn from some of the best startup investors in the business.
+          Dorm Room Fund’s <strong>Prism Investor Track</strong> is 6-week
+          masterclass supporting the next generation of queer venture investors!
+          We’re bringing together a select cohort of talented LGBTQ+ students to
+          gain a new community and learn from the best startup investors in the
+          business.
         </div>
         <div className='paragraph' data-aos='fade-up'>
           Leveraging the resources from our communities across the country, the
