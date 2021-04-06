@@ -185,7 +185,7 @@ function App() {
           individuals
         </div>
         <div className='logos' data-aos='fade-up'>
-          <img src={drf} width={500} alt='DRF Logo' />
+          <img src={drf} width={500} alt='DRF Logo' className='drf-logo' />
         </div>
         <div className='paragraph' data-aos='fade-up'>
           Dorm Room Fund’s <strong>Prism Investor Track</strong> is 6-week

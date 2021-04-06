@@ -56,6 +56,10 @@
   margin-top: 3%;
 }
 
+.drf-logo {
+  width: 500px;
+}
+
 .answer {
   font-weight: 500;
   font-size: 18px;
@@ -210,6 +214,9 @@
 
   .person-descriptor {
     margin-bottom: 15%;
+  }
+  .drf-logo {
+    width: 100%;
   }
 }
 
