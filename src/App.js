@@ -2,7 +2,6 @@ import logo from './prism.png';
 import illustration from './illustration1.png';
 import AOS from 'aos';
 import drf from './drf1.png';
-// import fr from "./fr.png";
 import { useEffect } from 'react';
 
 import Ivan from './images/ivan.png';
@@ -217,14 +216,7 @@ function App() {
             })}
           </ul>
         </div>
-        {/* <div className='paragraph' data-aos='fade-up'>
-          <div className='subtitle'>Partnerships</div>
-          <div>
-            We wouldn't have been able to accomplish this without the amazing
-            support from the following organizations:
-          </div>
-          
-        </div> */}
+
         <div className='paragraph' data-aos='fade-up'>
           <div className='subtitle'>Organizing Team</div>
           <div className='people'>
