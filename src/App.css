@@ -161,9 +161,6 @@
   .faq-container {
     padding-bottom: 4vh;
   }
-  .drf-logo {
-    width: 100%;
-  }
 }
 
 @media only screen and (max-width: 952px) {
@@ -219,14 +216,15 @@
   .person-descriptor {
     margin-bottom: 15%;
   }
-  .drf-logo {
-    width: 100% !important;
-  }
 }
 
 @media only screen and (max-width: 500px) {
   .illustration {
     width: 256px !important;
+  }
+  .drf-logo {
+    width: 250px !important;
+    height: 100%;
   }
 }
 
