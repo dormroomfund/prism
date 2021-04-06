@@ -108,6 +108,7 @@
 .logos {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .people {
@@ -159,6 +160,9 @@
   }
   .faq-container {
     padding-bottom: 4vh;
+  }
+  .drf-logo {
+    width: 100%;
   }
 }
 
@@ -216,7 +220,7 @@
     margin-bottom: 15%;
   }
   .drf-logo {
-    width: 100%;
+    width: 100% !important;
   }
 }
 
