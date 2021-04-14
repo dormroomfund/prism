@@ -4,10 +4,20 @@ import AOS from 'aos';
 import drf from './drf1.png';
 import { useEffect } from 'react';
 
-import Ivan from './images/ivan.png';
 import Irene from './images/irene.jpeg';
 import Mariel from './images/mariel.jpeg';
 import Tayo from './images/tayo.jpeg';
+import Ivan from './images/ivan.png';
+
+// Speaker / Mentor Imports
+import Lee from './images/lee.jpeg';
+import Alex from './images/alex.jpeg';
+import Densil from './images/densil.jpeg';
+import Maria from './images/maria.jpeg';
+import Sam from './images/sam.jpeg';
+import Lachy from './images/lachy.jpeg';
+import Vinay from './images/vinay.jpeg';
+import Monica from './images/monica.jpeg';
 
 import './App.css';
 import 'aos/dist/aos.css';
@@ -80,6 +90,90 @@ const curriculum = [
   'Sourcing and Supporting Founders',
   'Specific Topics in the LGBTQ+ space (media, consumer, healthcare)',
   'Taking Meetings and Final Presentations',
+];
+
+const mentors = [
+  {
+    name: 'Lee Edwards',
+    role: 'Partner @ Root VC',
+    photo: (
+      <img src={Lee} alt='headshot of Lee' width={200} className='headshot' />
+    ),
+  },
+  {
+    name: 'Alex Marshall',
+    role: 'Special Projects @ First Round',
+    photo: (
+      <img src={Alex} alt='headshot of Alex' width={200} className='headshot' />
+    ),
+  },
+  {
+    name: 'Densil Porteous',
+    role: 'CEO @ Pride Fund',
+    photo: (
+      <img
+        src={Densil}
+        alt='headshot of Densil'
+        width={200}
+        className='headshot'
+      />
+    ),
+  },
+  {
+    name: 'Maria Salamanca',
+    role: 'Partner @ Unshackled Ventures',
+    photo: (
+      <img
+        src={Maria}
+        alt='headshot of Maria'
+        width={200}
+        className='headshot'
+      />
+    ),
+  },
+  {
+    name: 'Sam Altman',
+    role: 'Ex-YC, CEO @ OpenAI',
+    photo: (
+      <img src={Sam} alt='headshot of Sam' width={200} className='headshot' />
+    ),
+  },
+  {
+    name: 'Lachy Groom',
+    role: 'Angel Investor',
+    photo: (
+      <img
+        src={Lachy}
+        alt='headshot of Lachy'
+        width={200}
+        className='headshot'
+      />
+    ),
+  },
+  {
+    name: 'Vinay Iyengar',
+    role: 'Investor @ Two Sigma Ventures',
+    photo: (
+      <img
+        src={Vinay}
+        alt='headshot of Vinay'
+        width={200}
+        className='headshot'
+      />
+    ),
+  },
+  {
+    name: 'Monica Black',
+    role: 'Founder and Managing Director @ Function.vc',
+    photo: (
+      <img
+        src={Monica}
+        alt='headshot of Monica'
+        width={200}
+        className='headshot'
+      />
+    ),
+  },
 ];
 
 const team = [
@@ -235,7 +329,23 @@ function App() {
             })}
           </div>
         </div>
-
+        <div className='paragraph'>
+          <div className='subtitle'>Speakers and Mentors</div>
+          <div style={{ marginBottom: '4%' }}>
+            Here are some of the amazing people you'll learn from and chat with!
+          </div>
+          <div className='mentors'>
+            {mentors.map((user) => {
+              return (
+                <div className='person-descriptor'>
+                  {user.photo}
+                  <div className='name'>{user.name}</div>
+                  <div className='pronouns'>{user.role}</div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
         <div className='paragraph' data-aos='fade-up'>
           Applications for the Prism Investor Track are now open and will close
           on May 2nd at 11:59 PST. Click{' '}
