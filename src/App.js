@@ -333,6 +333,7 @@ function App() {
           <div className='subtitle'>Speakers and Mentors</div>
           <div style={{ marginBottom: '4%' }}>
             Here are some of the amazing people you'll learn from and chat with!
+            More on the way 👀
           </div>
           <div className='mentors'>
             {mentors.map((user) => {
