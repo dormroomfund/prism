@@ -26,7 +26,7 @@ const faq = [
   {
     q: 'When should I apply?',
     a:
-      'Applications are open until May 2nd. We encourage you to apply as soon as possible!',
+      'Applications are open until May 9th. We encourage you to apply as soon as possible!'
   },
   {
     q: 'Who are you looking for?',
@@ -36,51 +36,51 @@ const faq = [
       'You have an anticipated graduation of 2022 or later. If this is the summer before you start a full-time program, we especially encourage you to apply (ex: B-School, Law School, Incoming freshman, etc.)',
       'We welcome students of all backgrounds to apply. You could be a freshman majoring in Poli-sci, a junior starting your own art studio, or a PhD student studying Machine Learning.',
       'You have passion for entrepreneurship and curiosity about new innovations, businesses, or technology. Don’t worry if you don’t have a ton of experience yet. We value life-long learners and folks driven by curiosity.',
-      'You have hustle and like to tackle challenges head on.',
-    ],
+      'You have hustle and like to tackle challenges head on.'
+    ]
   },
   {
     q: 'What is the selection process?',
     a:
-      'After reviewing your application, a member of our team may reach out to you for a 30-minute Zoom interview. This interview is to get to know you better and learn more about your background and interests. Our team will release final decisions in mid May',
+      'After reviewing your application, a member of our team may reach out to you for a 30-minute Zoom interview. This interview is to get to know you better and learn more about your background and interests. Our team will release final decisions in mid May'
   },
   {
     q: 'What is the time commitment?',
     a:
-      'The program is 6-weeks long and will run from June 12th - July 17th. Each session will be held on Saturday afternoons from 11-1pm PST (2-4pm EST).',
+      'The program is 6-weeks long and will run from June 12th - July 17th. Each session will be held on Saturday afternoons from 11-1pm PST (2-4pm EST).'
   },
   {
     q: 'Where will sessions be held?',
     a:
-      'Our sessions will be 100% remote. This gives you the flexibility to be a part of our community regardless of where you’ll be spending your summer.',
+      'Our sessions will be 100% remote. This gives you the flexibility to be a part of our community regardless of where you’ll be spending your summer.'
   },
   {
     q: 'What does a typical Prism session look like?',
     a:
-      'The Dorm Room Fund Team is partnering with some of the best VCs, Angel Investors and Founders in the game to teach you a new topic each week. Sessions will be a combination lecture style teaching, digital fireside chats and small group projects.',
+      'The Dorm Room Fund Team is partnering with some of the best VCs, Angel Investors and Founders in the game to teach you a new topic each week. Sessions will be a combination lecture style teaching, digital fireside chats and small group projects.'
   },
   {
     q: 'Do I have to pay for this program?',
     a:
-      'No. At Dorm Room Fund, we aim to make entrepreneurship and education as accessible as possible. While the program is free for you, we do invest time, energy and resources into making our program great. The only thing that we ask for is that you commit to giving the program 100%.',
+      'No. At Dorm Room Fund, we aim to make entrepreneurship and education as accessible as possible. While the program is free for you, we do invest time, energy and resources into making our program great. The only thing that we ask for is that you commit to giving the program 100%.'
   },
   {
     q: 'What is Dorm Room Fund?',
     a:
-      "We're a student-run venture fund backed by First Round Capital. We invest in startups where at least one person on the founding team is a student (undergraduate or graduate). Our investment team is run by student leaders, entrepreneurs, and innovators across the country.",
+      "We're a student-run venture fund backed by First Round Capital. We invest in startups where at least one person on the founding team is a student (undergraduate or graduate). Our investment team is run by student leaders, entrepreneurs, and innovators across the country."
   },
   {
     q: 'Who should I contact if I have more questions?',
     a: 'Ivan Zhao at',
-    email: 'izhao@dormroomfund.com',
-  },
+    email: 'izhao@dormroomfund.com'
+  }
 ];
 
 const success = [
   'A curriculum crafted around the fundamentals and best practices of Venture Capital. Including sessions on sourcing the best companies, developing investors intuition, venture finance, and more.',
   'Access to leading LGBTQ+ investors who have walked in their shoes. Angel investors and fund managers who have built portfolios from the ground up.',
   'Mentors that are dedicated to their success and who have a wealth of knowledge to share.',
-  'A community that is like-mind, diverse and highly motivated. A value-rich community of their peers, Dorm Room Fund, First Round Capital, and VC and entrepreneurship networks like StartOut and Gaingels.',
+  'A community that is like-mind, diverse and highly motivated. A value-rich community of their peers, Dorm Room Fund, First Round Capital, and VC and entrepreneurship networks like StartOut and Gaingels.'
 ];
 
 const curriculum = [
@@ -89,7 +89,7 @@ const curriculum = [
   'Evaluating Deals and Due Dilligence',
   'Sourcing and Supporting Founders',
   'Specific Topics in the LGBTQ+ space (media, consumer, healthcare)',
-  'Taking Meetings and Final Presentations',
+  'Taking Meetings and Final Presentations'
 ];
 
 const mentors = [
@@ -98,14 +98,14 @@ const mentors = [
     role: 'Partner @ Root VC',
     photo: (
       <img src={Lee} alt='headshot of Lee' width={200} className='headshot' />
-    ),
+    )
   },
   {
     name: 'Alex Marshall',
     role: 'Special Projects @ First Round',
     photo: (
       <img src={Alex} alt='headshot of Alex' width={200} className='headshot' />
-    ),
+    )
   },
   {
     name: 'Densil Porteous',
@@ -117,7 +117,7 @@ const mentors = [
         width={200}
         className='headshot'
       />
-    ),
+    )
   },
   {
     name: 'Maria Salamanca',
@@ -129,14 +129,14 @@ const mentors = [
         width={200}
         className='headshot'
       />
-    ),
+    )
   },
   {
     name: 'Sam Altman',
     role: 'Ex-YC, CEO @ OpenAI',
     photo: (
       <img src={Sam} alt='headshot of Sam' width={200} className='headshot' />
-    ),
+    )
   },
   {
     name: 'Lachy Groom',
@@ -148,7 +148,7 @@ const mentors = [
         width={200}
         className='headshot'
       />
-    ),
+    )
   },
   {
     name: 'Vinay Iyengar',
@@ -160,7 +160,7 @@ const mentors = [
         width={200}
         className='headshot'
       />
-    ),
+    )
   },
   {
     name: 'Monica Black',
@@ -172,8 +172,8 @@ const mentors = [
         width={200}
         className='headshot'
       />
-    ),
-  },
+    )
+  }
 ];
 
 const team = [
@@ -184,7 +184,7 @@ const team = [
     dog: 'Corgi',
     photo: (
       <img src={Ivan} alt='headshot of Ivan' width={200} className='headshot' />
-    ),
+    )
   },
   {
     name: 'Irene Wu',
@@ -198,7 +198,7 @@ const team = [
         width={200}
         className='headshot'
       />
-    ),
+    )
   },
   {
     name: 'Mariel Rosic',
@@ -212,7 +212,7 @@ const team = [
         width={200}
         className='headshot'
       />
-    ),
+    )
   },
   {
     name: 'Tayo Zenger',
@@ -221,8 +221,8 @@ const team = [
     dog: 'Vizsla',
     photo: (
       <img src={Tayo} alt='headshot of Tayo' width={200} className='headshot' />
-    ),
-  },
+    )
+  }
 ];
 
 function App() {
@@ -236,7 +236,7 @@ function App() {
   useEffect(() => {
     AOS.init({
       offset: Math.max(windowHeight / 2.4),
-      duration: 600,
+      duration: 600
     });
     AOS.refresh();
   }, [windowHeight]);
@@ -349,7 +349,7 @@ function App() {
         </div>
         <div className='paragraph' data-aos='fade-up'>
           Applications for the Prism Investor Track are now open and will close
-          on May 2nd at 11:59 PST. Click{' '}
+          on May 9th at 11:59 PST. Click{' '}
           <a
             href='https://airtable.com/shr2yCkcPnRsOOlsf'
             target='_blank'
