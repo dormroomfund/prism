@@ -248,14 +248,15 @@ function App() {
           <img src={logo} alt='Logo' className='logo' />
           <div className='title'>Prism Investor Track</div>
 
-          <button
+          {/* <button
             className='button'
+            disabled
             onClick={() =>
               window.open('https://airtable.com/shr2yCkcPnRsOOlsf', '_blank')
             }
           >
-            Apply Now!
-          </button>
+            Applications are closed
+          </button> */}
         </div>
 
         <div
@@ -348,17 +349,7 @@ function App() {
           </div>
         </div>
         <div className='paragraph' data-aos='fade-up'>
-          Applications for the Prism Investor Track are now open and will close
-          on May 9th at 11:59 PST. Click{' '}
-          <a
-            href='https://airtable.com/shr2yCkcPnRsOOlsf'
-            target='_blank'
-            rel='noreferrer'
-            className='link'
-          >
-            here
-          </a>{' '}
-          to apply.
+          Applications for the Prism Investor Track 2021 are closed.
         </div>
       </div>
       <div className='faq-container'>
