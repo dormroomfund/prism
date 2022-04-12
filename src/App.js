@@ -252,7 +252,6 @@ function App() {
 
           <button
             className="button"
-            disabled
             onClick={() =>
               window.open("https://airtable.com/shrZ0jUQi8kQicaIc", "_blank")
             }
