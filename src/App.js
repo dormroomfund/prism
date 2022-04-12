@@ -8,10 +8,10 @@ import { useEffect } from "react";
 // import Mariel from "./images/mariel.jpeg";
 // import Tayo from "./images/tayo.jpeg";
 // import Ivan from "./images/ivan.png";
-import Albert from ".images/albert_shin.jpg";
-import Chirag from ".images/chirag.jpeg";
-import James_W from ".images/james_wellermeyer.jpg";
-import Nika from ".images/nika_duan.jpg";
+import Albert from "./images/albert_shin.jpg";
+import Chirag from "./images/chirag.jpeg";
+import James_W from "./images/james_wellermeyer.jpg";
+import Nika from "./images/nika_duan.jpg";
 
 // Speaker / Mentor Imports
 import Lee from "./images/lee.jpeg";
@@ -44,11 +44,11 @@ const faq = [
   },
   {
     q: "What is the selection process?",
-    a: "After reviewing your application, a member of our team may reach out to you for a 30-minute Zoom interview. This interview is to get to know you better and learn more about your background and interests. Our team will release final decisions in mid May",
+    a: "Our team will review applications and hold two rounds of Zoom interviews. The goal of these interviews is to better understand your background and interests. Final decisions will be announced at the end of May.",
   },
   {
     q: "What is the time commitment?",
-    a: "The program is 6-weeks long and will run from June 12th - July 17th. Each session will be held on Saturday afternoons from 11-1pm PST (2-4pm EST).",
+    a: "The program is 6-weeks long and will run from June 12th - July 24th. Sessions will be 2 hours long. More information to come.",
   },
   {
     q: "Where will sessions be held?",
@@ -257,7 +257,7 @@ function App() {
               window.open("https://airtable.com/shrZ0jUQi8kQicaIc", "_blank")
             }
           >
-            Applications are open!
+            Apply here!
           </button>
         </div>
 
@@ -335,8 +335,8 @@ function App() {
         <div className="paragraph">
           <div className="subtitle">Speakers and Mentors</div>
           <div style={{ marginBottom: "4%" }}>
-            Here are some of the amazing people you'll learn from and chat with!
-            More on the way 👀
+            Here are some of the amazing people we've hosted in the past! More
+            on the way 👀
           </div>
           <div className="mentors">
             {mentors.map((user) => {
@@ -350,9 +350,9 @@ function App() {
             })}
           </div>
         </div>
-        <div className="paragraph" data-aos="fade-up">
+        {/* <div className="paragraph" data-aos="fade-up">
           Applications for the Prism Investor Track 2021 are closed.
-        </div>
+        </div> */}
       </div>
       <div className="faq-container">
         <div className="subtitle">FAQ</div>
