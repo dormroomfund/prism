@@ -333,11 +333,8 @@ function App() {
         </div>
         <div className="paragraph">
           <div className="subtitle">Speakers and Mentors</div>
-          <div style={{ marginBottom: "4%" }}>
-            Here are some of the amazing people we've hosted in the past! More
-            on the way 👀
-          </div>
-          <div className="mentors">
+          <div style={{ marginBottom: "4%" }}>TBD 👀</div>
+          {/* <div className="mentors">
             {mentors.map((user) => {
               return (
                 <div className="person-descriptor">
@@ -347,7 +344,7 @@ function App() {
                 </div>
               );
             })}
-          </div>
+          </div> */}
         </div>
         {/* <div className="paragraph" data-aos="fade-up">
           Applications for the Prism Investor Track 2021 are closed.
