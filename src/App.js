@@ -8,6 +8,7 @@ import { useEffect } from "react";
 // import Mariel from "./images/mariel.jpeg";
 // import Tayo from "./images/tayo.jpeg";
 // import Ivan from "./images/ivan.png";
+
 import Albert from "./images/albert_shin.jpg";
 import Chirag from "./images/chirag.jpeg";
 import James_W from "./images/james_wellermeyer.jpg";
