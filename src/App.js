@@ -254,7 +254,7 @@ function App() {
           <button
             className="button"
             onClick={() =>
-              window.open("https://airtable.com/shrZ0jUQi8kQicaIc", "_blank")
+              window.open("https://airtable.com/shrRIg07BczDRvgw4", "_blank")
             }
           >
             Apply here!
