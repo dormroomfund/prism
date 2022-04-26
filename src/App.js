@@ -4,6 +4,7 @@ import AOS from "aos";
 import drf from "./drf1.png";
 import { useEffect } from "react";
 
+// Team image imports
 // import Irene from "./images/irene.jpeg";
 // import Mariel from "./images/mariel.jpeg";
 // import Tayo from "./images/tayo.jpeg";
